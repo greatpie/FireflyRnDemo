@@ -1,4 +1,4 @@
-package com.example.fireflyrndemo
+package com.example.fireflyrn
 
 import org.junit.Test
 
