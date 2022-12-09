@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E36180529421D2D002768D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E36180429421D2D002768D6 /* AppDelegate.swift */; };
+		2E36180729421D2D002768D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E36180629421D2D002768D6 /* SceneDelegate.swift */; };
+		2E36180E29421D2E002768D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E36180D29421D2E002768D6 /* Assets.xcassets */; };
+		2E36181129421D2E002768D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E36180F29421D2E002768D6 /* LaunchScreen.storyboard */; };
+		2E36181929421D78002768D6 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E36181829421D78002768D6 /* common.swift */; };
+		2E36181F29421EF9002768D6 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E36181E29421EF9002768D6 /* CalendarViewController.swift */; };
+		2E361830294224D5002768D6 /* BridgeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E36182F294224D5002768D6 /* BridgeDelegate.swift */; };
+		2E361832294225ED002768D6 /* ReactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E361831294225ED002768D6 /* ReactViewController.swift */; };
+		2E3618352942280E002768D6 /* ReactNativeBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3618342942280E002768D6 /* ReactNativeBridge.swift */; };
+		2E36183E294229AA002768D6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E36183D294229AA002768D6 /* HomeViewController.swift */; };
+		2E361840294229AF002768D6 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E36183F294229AF002768D6 /* MainTabBarController.swift */; };
+		2E361842294229B1002768D6 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E361841294229B1002768D6 /* MineViewController.swift */; };
+		2E3618782943170A002768D6 /* AppDelegateBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E3618772943170A002768D6 /* AppDelegateBase.mm */; };
+		4A3976407D4F26A6FFEE672D /* libPods-Firefly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E94E7850516EFD0E86712A9 /* libPods-Firefly.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E36180129421D2D002768D6 /* Firefly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firefly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E36180429421D2D002768D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E36180629421D2D002768D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2E36180D29421D2E002768D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E36181029421D2E002768D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E36181229421D2E002768D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E36181829421D78002768D6 /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
+		2E36181E29421EF9002768D6 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		2E36182F294224D5002768D6 /* BridgeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeDelegate.swift; sourceTree = "<group>"; };
+		2E361831294225ED002768D6 /* ReactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactViewController.swift; sourceTree = "<group>"; };
+		2E3618342942280E002768D6 /* ReactNativeBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeBridge.swift; sourceTree = "<group>"; };
+		2E36183D294229AA002768D6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2E36183F294229AF002768D6 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		2E361841294229B1002768D6 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		2E3618752943166F002768D6 /* Firefly-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Firefly-Bridging-Header.h"; sourceTree = "<group>"; };
+		2E3618762943170A002768D6 /* AppDelegateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegateBase.h; sourceTree = "<group>"; };
+		2E3618772943170A002768D6 /* AppDelegateBase.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegateBase.mm; sourceTree = "<group>"; };
+		3A8BC646EA37FDDF549DE034 /* Pods-Firefly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firefly.release.xcconfig"; path = "Target Support Files/Pods-Firefly/Pods-Firefly.release.xcconfig"; sourceTree = "<group>"; };
+		4E94E7850516EFD0E86712A9 /* libPods-Firefly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Firefly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84525716D4B64C0E8E13A727 /* Pods-Firefly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firefly.debug.xcconfig"; path = "Target Support Files/Pods-Firefly/Pods-Firefly.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E3617FE29421D2D002768D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3976407D4F26A6FFEE672D /* libPods-Firefly.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E3617F829421D2D002768D6 = {
+			isa = PBXGroup;
+			children = (
+				2E36180329421D2D002768D6 /* Firefly */,
+				2E36180229421D2D002768D6 /* Products */,
+				D4D45E8DB86DB65362491C0B /* Pods */,
+				5B2584322305E49D9A9602BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E36180229421D2D002768D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E36180129421D2D002768D6 /* Firefly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E36180329421D2D002768D6 /* Firefly */ = {
+			isa = PBXGroup;
+			children = (
+				2E3618762943170A002768D6 /* AppDelegateBase.h */,
+				2E3618772943170A002768D6 /* AppDelegateBase.mm */,
+				2E36184329422A15002768D6 /* Scene */,
+				2E36183A29422999002768D6 /* Tools */,
+				2E3618332942269A002768D6 /* Bridge */,
+				2E36180429421D2D002768D6 /* AppDelegate.swift */,
+				2E36180629421D2D002768D6 /* SceneDelegate.swift */,
+				2E36180D29421D2E002768D6 /* Assets.xcassets */,
+				2E36180F29421D2E002768D6 /* LaunchScreen.storyboard */,
+				2E36181229421D2E002768D6 /* Info.plist */,
+				2E3618752943166F002768D6 /* Firefly-Bridging-Header.h */,
+			);
+			path = Firefly;
+			sourceTree = "<group>";
+		};
+		2E3618332942269A002768D6 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				2E361831294225ED002768D6 /* ReactViewController.swift */,
+				2E36182F294224D5002768D6 /* BridgeDelegate.swift */,
+				2E3618342942280E002768D6 /* ReactNativeBridge.swift */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		2E36183A29422999002768D6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2E36181829421D78002768D6 /* common.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2E36184329422A15002768D6 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				2E36184429422A15002768D6 /* Home */,
+				2E36184529422A15002768D6 /* calendar */,
+				2E36184629422A15002768D6 /* Mine */,
+				2E36184729422A15002768D6 /* Main */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		2E36184429422A15002768D6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2E36183D294229AA002768D6 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2E36184529422A15002768D6 /* calendar */ = {
+			isa = PBXGroup;
+			children = (
+				2E36181E29421EF9002768D6 /* CalendarViewController.swift */,
+			);
+			path = calendar;
+			sourceTree = "<group>";
+		};
+		2E36184629422A15002768D6 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				2E361841294229B1002768D6 /* MineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		2E36184729422A15002768D6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2E36183F294229AF002768D6 /* MainTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5B2584322305E49D9A9602BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E94E7850516EFD0E86712A9 /* libPods-Firefly.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4D45E8DB86DB65362491C0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84525716D4B64C0E8E13A727 /* Pods-Firefly.debug.xcconfig */,
+				3A8BC646EA37FDDF549DE034 /* Pods-Firefly.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E36180029421D2D002768D6 /* Firefly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E36181529421D2E002768D6 /* Build configuration list for PBXNativeTarget "Firefly" */;
+			buildPhases = (
+				FEBA253C8DA9B1641E8040CE /* [CP] Check Pods Manifest.lock */,
+				2E3617FD29421D2D002768D6 /* Sources */,
+				2E3617FE29421D2D002768D6 /* Frameworks */,
+				2E3617FF29421D2D002768D6 /* Resources */,
+				002C620CE229720982737216 /* [CP] Embed Pods Frameworks */,
+				86DE50A0DD8263B00CF0AFD9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Firefly;
+			productName = Firefly;
+			productReference = 2E36180129421D2D002768D6 /* Firefly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E3617F929421D2D002768D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					2E36180029421D2D002768D6 = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
+					};
+				};
+			};
+			buildConfigurationList = 2E3617FC29421D2D002768D6 /* Build configuration list for PBXProject "Firefly" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E3617F829421D2D002768D6;
+			productRefGroup = 2E36180229421D2D002768D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E36180029421D2D002768D6 /* Firefly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E3617FF29421D2D002768D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E36181129421D2E002768D6 /* LaunchScreen.storyboard in Resources */,
+				2E36180E29421D2E002768D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		002C620CE229720982737216 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firefly/Pods-Firefly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firefly/Pods-Firefly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firefly/Pods-Firefly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86DE50A0DD8263B00CF0AFD9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firefly/Pods-Firefly-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firefly/Pods-Firefly-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firefly/Pods-Firefly-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEBA253C8DA9B1641E8040CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Firefly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E3617FD29421D2D002768D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3618782943170A002768D6 /* AppDelegateBase.mm in Sources */,
+				2E361842294229B1002768D6 /* MineViewController.swift in Sources */,
+				2E36181F29421EF9002768D6 /* CalendarViewController.swift in Sources */,
+				2E361840294229AF002768D6 /* MainTabBarController.swift in Sources */,
+				2E3618352942280E002768D6 /* ReactNativeBridge.swift in Sources */,
+				2E361832294225ED002768D6 /* ReactViewController.swift in Sources */,
+				2E36181929421D78002768D6 /* common.swift in Sources */,
+				2E36183E294229AA002768D6 /* HomeViewController.swift in Sources */,
+				2E361830294224D5002768D6 /* BridgeDelegate.swift in Sources */,
+				2E36180529421D2D002768D6 /* AppDelegate.swift in Sources */,
+				2E36180729421D2D002768D6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E36180F29421D2E002768D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E36181029421D2E002768D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E36181329421D2E002768D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E36181429421D2E002768D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E36181629421D2E002768D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84525716D4B64C0E8E13A727 /* Pods-Firefly.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55Q46WR3M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Firefly/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinya.Firefly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Firefly/Firefly-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E36181729421D2E002768D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A8BC646EA37FDDF549DE034 /* Pods-Firefly.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55Q46WR3M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Firefly/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinya.Firefly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Firefly/Firefly-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E3617FC29421D2D002768D6 /* Build configuration list for PBXProject "Firefly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E36181329421D2E002768D6 /* Debug */,
+				2E36181429421D2E002768D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E36181529421D2E002768D6 /* Build configuration list for PBXNativeTarget "Firefly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E36181629421D2E002768D6 /* Debug */,
+				2E36181729421D2E002768D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E3617F929421D2D002768D6 /* Project object */;
+}
